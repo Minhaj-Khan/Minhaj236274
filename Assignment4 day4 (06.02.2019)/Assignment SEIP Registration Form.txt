@@ -1,3 +1,494 @@
+<!-- Submitted By                                 Submitted To
+	 Name: Minhaj Mehdi Khan                      Afjalul Ahsan Pritom
+         ID#SEID-236274
+	 Course Name: Web App Develop- PHP
+	 Batch:01
+	                           
+					 Submission Date
+		         		     09/02/2019
+			 -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Registration for SEIP Project|BITM</title>
+	</head>
+	<body>
+		<h2><font color="#3E4FA1">Registration for SEIP Project</font></h2>
+		<hr/ style="border: 1px solid #B4CE45">
+			<table>
+				<form action="" method="">
+					<p><font color="#ACB7AF">Select Course:(One person will be eligible for one course only)</font></p>
+					<tr>
+						<td>First Preference<sup><font color="red">*</font></sup>:</td> 
+						<td>
+							<select style="border: 1px solid #B4CE45" name="name" style="width:200px; display:block;">
+								<option>Select Course</option>
+								<option>Web App Develop-PHP</option>
+								<option>Web App Develop-Dot Net</option>
+								<option>Affiliate Marketing</option>
+								<option>English & bussiness Communication</option>
+								<option>Server Administration & Cloud Management</option>
+								<option>IT support & Technical</option>
+								<option>IT Sales</option>
+								<option>Customer Support & Service</option>
+								<option>Practical SEO</option>
+								<option>Web Design</option>
+								<option>Graphics & Web UI design</option>
+								<option>Mobile App Develop</option>
+								<option>Digital Marketing Course</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>Second Preference<sup><font color="red">*</font></sup>:</td> 
+						<td>
+							<select style="border: 1px solid #B4CE45" name="name" style="width:200px; display:block;">
+								<option>Select Course</option>
+								<option>Web App Develop-PHP</option>
+								<option>Web App Develop-Dot Net</option>
+								<option>Affiliate Marketing</option>
+								<option>English & bussiness Communication</option>
+								<option>Server Administration & Cloud Management</option>
+								<option>IT support & Technical</option>
+								<option>IT Sales</option>
+								<option>Customer Support & Service</option>
+								<option>Practical SEO</option>
+								<option>Web Design</option>
+								<option>Graphics & Web UI design</option>
+								<option>Mobile App Develop</option>
+								<option>Digital Marketing Course</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>Third Preference<sup><font color="red">*</font></sup>:</td> 
+						<td>
+							<select style="border: 1px solid #B4CE45" name="name" style="width:200px; display:block;">
+								<option>Select Course</option>
+								<option>Web App Develop-PHP</option>
+								<option>Web App Develop-Dot Net</option>
+								<option>Affiliate Marketing</option>
+								<option>English & bussiness Communication</option>
+								<option>Server Administration & Cloud Management</option>
+								<option>IT support & Technical</option>
+								<option>IT Sales</option>
+								<option>Customer Support & Service</option>
+								<option>Practical SEO</option>
+								<option>Web Design</option>
+								<option>Graphics & Web UI design</option>
+								<option>Mobile App Develop</option>
+								<option>Digital Marketing Course</option>
+							</select>
+						</td>
+					</tr>
+				</form>
+			</table>
+		</form>
+	</table>
+	<table>
+		<form action="" method="">
+			<tr>
+				<td>Name:<sup><font color="red">*</font></sup></td>
+			</tr>
+			<tr>
+				<td><input style="border: 1px solid #B4CE45" type="text" name="first_name" id="firstName" size="40"></td>
+				</tr>
+			</form>
+		</table>
+		<table>
+			<form action="" method="">
+				<tr>
+					<td>Father Name:<sup><font color="red">*</font></sup></td>
+					<td>Mother Name:<sup><font color="red">*</font></sup></td>
+					<td>Gender:<sup><font color="red">*</font></sup></td>
+				</tr>
+				<tr>
+					<td><input style="border: 1px solid #B4CE45" type="text" name="father_name" id="fatherName" size="40"></td>
+						<td><input style="border: 1px solid #B4CE45" type="text" name="mother_name" id="motherName" size="40"></td>
+							<td>
+								<select style="border: 1px solid #B4CE45" type="text" name="name" style="width:200px; display:block;">
+									<option>Select Gender</option>
+									<option>Male</option>
+									<option>Female</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td>National ID:</td>
+						</tr>
+						<tr>
+							<td>
+								<input style="border: 1px solid #B4CE45" type="number" name="national_id" id="nationalID" size="40">
+								</td>
+							</tr>
+							<tr>
+								<td>Date of Birth:<sup><font color="red">*</font></sup></td>
+								<td>Religion:<sup><font color="red">*</font></sup></td>
+								<td>Ethnic Group:<sup><font color="red">*</font></sup></td>
+							</tr>
+							<tr>
+								<td>
+									<input style="border: 1px solid #B4CE45" type="date" name="date_of_birth" id="dateofBirth" size="40">
+									</td>
+									<td>
+										<select style="border: 1px solid #B4CE45" name="name" style="width:200px; display:block;">
+											<option>Select Religion</option>
+											<option>Islam</option>
+											<option>Hinduism</option>
+											<option>Buddhism</option>
+											<option>Christianity</option>
+										</select>
+									</td>
+									<td>
+										<select style="border: 1px solid #B4CE45" name="name" style="width:200px; display:block;">
+											<option>Select Ethnic Group</option>
+											<option>Armenian community of Dhaka</option>
+											<option>Armenians in Bangladesh</option>
+											<option>Bagdi caste</option>
+											<option>Bom people</option>
+											<option>Bede people</option>
+											<option>Bedia (Muslim caste)</option>
+											<option>Bengali Hindus</option>
+											<option>Bengali Muslims</option>
+											<option>Bengali people</option>
+											<option>Bihari Muslims</option>
+											<option>Bihari people</option>
+											<option>Chak people</option>
+											<option>Chakma people</option>
+											<option>Chinese people in Bangladesh</option>
+											<option>Dhanuk</option>
+											<option>Garo people</option>
+											<option>Indians in Bangladesh</option>
+											<option>Indigenous peoples in Bangladesh</option>
+											<option>Jumma people</option>
+											<option>Kan (tribe)</option>
+											<option>Khasi people</option>
+											<option>Khumi people</option>
+											<option>Khyang people</option>
+											<option>Kuki people</option>
+											<option>Kurukh people</option>
+											<option>Lushei tribe</option>
+											<option>Mahle people</option>
+											<option>Maimal</option>
+											<option>Mustafa Majid</option>
+											<option>Mal Muslim</option>
+											<option>Marma people</option>
+											<option>Mro people</option>
+											<option>Munda people</option>
+											<option>Murang people</option>
+											<option>Naulak</option>
+											<option>Nepalis in Bangladesh</option>
+											<option>Pankho people</option>
+											<option>Rakhaine people, Bangladesh</option>
+											<option>Rohingya people</option>
+											<option>Santhal people</option>
+											<option>Stranded Pakistanis</option>
+											<option>Tanchangya people</option>
+											<option>Thadou people</option>
+											<option>Template:tribes of Bangladesh</option>
+											<option>Tripuri people</option>
+											<option>Vaiphei people</option>
+											<option>Zo people</option>
+											<option>Zomi nationalism</option>
+										</select>
+									</td>
+								</tr>
+								<tr>
+									<td>Mobile:<sup><font color="red">*</font></sup></td>
+									<td>Email:<sup><font color="red">*</font></sup></td>
+								</tr>
+								<tr>
+									<td>
+										<input style="border: 1px solid #B4CE45" type="number" name="mobile" id="mobile">
+										</td>
+										<td>
+											<input style="border: 1px solid #B4CE45" type="email" name="email_address" id="emailAddress">
+											</td>
+										</tr>
+										<tr>
+											<td></td>
+											<td>Monthly Income:</td>
+										</tr>
+										<tr>
+											<td>Is Employed? <input type="radio" name="is_employed?" value="yes">Yes<input type="radio" name="is_employed?" value="no">No</td>
+													<td><input style="border: 1px solid #B4CE45" type="text" name="monthly_income" id="monthlyIncome" ></td>
+													</tr>
+													<tr>
+														<td>Company Name:<sup><font color="red">*</font></sup></td>
+														<td>Designation:<sup><font color="red">*</font></sup></td>
+													</tr>
+													<tr>
+														<td><textarea style="border: 1px solid #B4CE45" rows="1" cols="50"></textarea></td>
+														<td><textarea style="border: 1px solid #B4CE45" rows="1" cols="50"></textarea></td>
+													</tr>
+													<tr>
+														<td><h2><font color="#3E4FA1">Present Address<hr/></font></h2></td>
+													</tr>
+													<tr>
+														<td>Address:<sup><font color="red">*</font></sup></td>
+													</tr>
+													<tr>
+														<td><textarea style="border: 1px solid #B4CE45" rows="1" cols="50"></textarea></td>
+													</tr>
+													<tr>
+														<td>City:<sup><font color="red">*</font></sup></td>
+														<td>Post Code:<sup><font color="red">*</font></sup></td>
+													</tr>
+													<tr>
+														<td><textarea style="border: 1px solid #B4CE45" rows="1" cols="50"></textarea></td>
+														<td><textarea style="border: 1px solid #B4CE45" rows="1" cols="50"></textarea></td>
+													</tr>
+													<tr>
+														<td>Division:<sup><font color="red">*</font></sup></td>
+														<td>District:<sup><font color="red">*</font></sup></td>
+														<td>Sub-District:<sup><font color="red">*</font></sup></td>
+													</tr>
+													<tr>
+														<td>
+															<select style="border: 1px solid #B4CE45" name="name" style="width:200px; display:block;">
+																<option>Select Division</option>
+																<option>Barisal</option>
+																<option>Chittagong</option>
+																<option>Dhaka</option>
+																<option>Khulna</option>
+																<option>Rajshahi</option>
+																<option>Rangpur</option>
+																<option>Sylhet</option>
+															</select>
+														</td>
+														<td>
+															<select style="border: 1px solid #B4CE45" name="name" style="width:200px; display:block;">
+																<option>Select District</option>
+																<option>Dhaka</option>
+																<option>Faridpur</option>
+																<option>Gazipur</option>
+																<option>Gopalgonj</option>
+																<option>Jamalpur</option>
+																<option>Kishoreganj</option>
+																<option>Madaripur</option>
+																<option>Manikganj</option>
+																<option>Munshiganj</option>
+																<option>Mymensingh</option>
+																<option>Narayanganj</option>
+																<option>Narsingdi</option>
+																<option>Netrakona</option>
+																<option>Rajbari</option>
+																<option>Shariatpur</option>
+																<option>Sherpur</option>
+																<option>Tangail</option>
+																<option>Barisal</option>
+																<option>Bhola</option>
+																<option>Borguna</option>
+																<option>Jhalkati</option>
+																<option>Patuakhali</option>
+																<option>Pirojgonj</option>
+																<option>Bandarban</option>
+																<option>Brahmanbaria</option>
+																<option>Chandpur</option>
+																<option>Chittagong</option>
+																<option>Comilla</option>
+																<option>Cox'sBazar</option>
+																<option>Feni</option>
+																<option>Khagrachari</option>
+																<option>Lakshmipur</option>
+																<option>Noakhali</option>
+																<option>Rangamati</option>
+																<option>Bagerhat</option>
+																<option>Chuadanga</option>
+																<option>jessore</option>
+																<option>Jhenaidah</option>
+																<option>Khulna</option>
+																<option>Kushtia</option>
+																<option>Magura</option>
+																<option>Meherpur</option>
+																<option>Narail</option>
+																<option>Satkhira</option>
+																<option>Bogra</option>
+																<option>Chaapainawabganj</option>
+																<option>Joypurhat</option>
+																<option>Naogaon</option>
+																<option>Natore</option>
+																<option>Pabna</option>
+																<option>Rajshahi</option>
+																<option>Shirajganj</option>
+																<option>Dinajpur</option>
+																<option>Gaibandha</option>
+																<option>Kurigram</option>
+																<option>Lalmonirhat</option>
+																<option>Nilphamari</option>
+																<option>Panchagarh</option>
+																<option>Rangpur</option>
+																<option>Thakurgaon</option>
+																<option>Habiganj</option>
+																<option>Maulivibazar</option>
+																<option>Sunamganj</option>
+																<option>Sylhet</option>
+															</select>
+														</td>
+														<td>
+															<select style="border: 1px solid #B4CE45" name="name" style="width:200px; display:block;">
+																<option>Select Sub-District</option>
+																<option>Dhaka(City)</option>
+																<option>Dhamrai</option>
+																<option>Dohar</option>
+																<option>Keraniganj</option>
+																<option>Nawabganj</option>
+																<option>Savar</option>
+															</select>
+														</td>
+													</tr>
+													<tr>
+														<td><h2><font color="#3E4FA1">Permanent Address<hr/></font></h2></td>
+													</tr>
+													<tr>
+														<td>Address:<sup><font color="red">*</font></sup></td>
+													</tr>
+													<tr>
+														<td><textarea style="border: 1px solid #B4CE45" rows="1" cols="50"></textarea></td>
+													</tr>
+													<tr>
+														<td>City:<sup><font color="red">*</font></sup></td>
+														<td>Post Code:<sup><font color="red">*</font></sup></td>
+													</tr>
+													<tr>
+														<td><textarea style="border: 1px solid #B4CE45" rows="1" cols="50"></textarea></td>
+														<td><textarea style="border: 1px solid #B4CE45" rows="1" cols="50"></textarea></td>
+													</tr>
+													<tr>
+														<td>Division:<sup><font color="red">*</font></sup></td>
+														<td>District:<sup><font color="red">*</font></sup></td>
+														<td>Sub-District:<sup><font color="red">*</font></sup></td>
+													</tr>
+													<tr>
+														<td>
+															<select style="border: 1px solid #B4CE45" name="name" style="width:200px; display:block;">
+																<option>Select Division</option>
+																<option>Barisal</option>
+																<option>Chittagong</option>
+																<option>Dhaka</option>
+																<option>Khulna</option>
+																<option>Rajshahi</option>
+																<option>Rangpur</option>
+																<option>Sylhet</option>
+															</select>
+														</td>
+														<td>
+															<select style="border: 1px solid #B4CE45" name="name" style="width:200px; display:block;">
+																<option>Select District</option>
+																<option>Dhaka</option>
+																<option>Faridpur</option>
+																<option>Gazipur</option>
+																<option>Gopalgonj</option>
+																<option>Jamalpur</option>
+																<option>Kishoreganj</option>
+																<option>Madaripur</option>
+																<option>Manikganj</option>
+																<option>Munshiganj</option>
+																<option>Mymensingh</option>
+																<option>Narayanganj</option>
+																<option>Narsingdi</option>
+																<option>Netrakona</option>
+																<option>Rajbari</option>
+																<option>Shariatpur</option>
+																<option>Sherpur</option>
+																<option>Tangail</option>
+																<option>Barisal</option>
+																<option>Bhola</option>
+																<option>Borguna</option>
+																<option>Jhalkati</option>
+																<option>Patuakhali</option>
+																<option>Pirojgonj</option>
+																<option>Bandarban</option>
+																<option>Brahmanbaria</option>
+																<option>Chandpur</option>
+																<option>Chittagong</option>
+																<option>Comilla</option>
+																<option>Cox'sBazar</option>
+																<option>Feni</option>
+																<option>Khagrachari</option>
+																<option>Lakshmipur</option>
+																<option>Noakhali</option>
+																<option>Rangamati</option>
+																<option>Bagerhat</option>
+																<option>Chuadanga</option>
+																<option>jessore</option>
+																<option>Jhenaidah</option>
+																<option>Khulna</option>
+																<option>Kushtia</option>
+																<option>Magura</option>
+																<option>Meherpur</option>
+																<option>Narail</option>
+																<option>Satkhira</option>
+																<option>Bogra</option>
+																<option>Chaapainawabganj</option>
+																<option>Joypurhat</option>
+																<option>Naogaon</option>
+																<option>Natore</option>
+																<option>Pabna</option>
+																<option>Rajshahi</option>
+																<option>Shirajganj</option>
+																<option>Dinajpur</option>
+																<option>Gaibandha</option>
+																<option>Kurigram</option>
+																<option>Lalmonirhat</option>
+																<option>Nilphamari</option>
+																<option>Panchagarh</option>
+																<option>Rangpur</option>
+																<option>Thakurgaon</option>
+																<option>Habiganj</option>
+																<option>Maulivibazar</option>
+																<option>Sunamganj</option>
+																<option>Sylhet</option>
+															</select>
+														</td>
+														<td>
+															<select style="border: 1px solid #B4CE45" name="name" style="width:200px; display:block;">
+																<option>Select Sub-District</option>
+																<option>Dhaka(City)</option>
+																<option>Dhamrai</option>
+																<option>Dohar</option>
+																<option>Keraniganj</option>
+																<option>Nawabganj</option>
+																<option>Savar</option>
+															</select>
+														</td>
+													</tr>
+													<tr>
+														<td><h2><font color="#3E4FA1">Highest Academic Achievement<hr/></font></h2></td>
+													</tr>
+													<tr>
+														<td>Level of Education:</td>
+														<td>Institute:</td>
+													</tr>
+													<tr>
+														<td><textarea style="border: 1px solid #B4CE45" rows="1" cols="50"></textarea></td>
+														<td><textarea style="border: 1px solid #B4CE45" rows="1" cols="50"></textarea></td>
+													</tr>
+													<tr>
+														<td>Subject:</td>
+														<td>Year:</td>
+													</tr>
+													<tr>
+														<td><textarea style="border: 1px solid #B4CE45" rows="1" cols="50"></textarea></td>
+														<td><textarea style="border: 1px solid #B4CE45" rows="1" cols="50"></textarea></td>
+													</tr>
+													<tr>
+														<td><h2><font color="#3E4FA1">Photo<hr/></font></h2></td>
+													</tr>
+													<tr>
+														<td>
+															<input type="file">
+															</td>
+														</tr>
+														<tr>
+															<td>
+																<p><font color="#ACB7AF">Image size should be 300x300 (Max 100KB) in JPG Format</font></p>
+															</td>
+														</tr>
+													</form>
+												</table>
+											</body>
+										</html>
 <!DOCTYPE html>
 <html>
 	<head>
